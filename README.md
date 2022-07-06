@@ -35,3 +35,26 @@ JavaScript acaba de convertirse en Multi-Threaded con la capacidad de realizar m
 JS fue concebido sincrono pero tenemos herramientas para utilizar el asincronismo.
 
 **Definición de JavaScript:** Es asíncrono y no bloqueante, con un bucle de eventos (concurrencia) implementado con un único hilo para sus interfaces de I/O.
+
+
+### **Event Loop**
+**Memory Heap:** los objetos son asignados a un montículo (espacio grande en memoria no organizado)
+
+**Call Stack (pila):** Apila de forma organizada las instrucciones de nuestro programa. Hay que tener el concepto LIFO, (Last-in, First-out)
+
+**Task Queue:** Cola de tareas, se maneja la concurrencia, se agregan las tareas que ya etán listas para pasar al Stack (pila). El stack debe estar vacío. Recuerda LIFO
+
+**MicroTask Queue:** Las promesas tienen otra forma de ejecutarse y una prioridad superior.
+
+**Web APIs:** JavaScript del lado del cliente: setTimeout, XMLHttpRequest, File Reader, DOM. Node: fs, https.
+
+Entonces **event loop** es una tarea asignada para mover del Task Queue al Stack, solo si el Stack está vacío.
+
+![](https://media.giphy.com/media/JFsW5Wtec5dA1rthkq/giphy.gif)
+
+**Configuración:** Para el proyecto se necesita lo siguiente.
+
+- **Editor de Codigo:** VS Code.
+- **Documentación:** [MDN Javascript](https://developer.mozilla.org/en-US/docs/Web/javascript)
+- **Fake API:** [Fake API Platzi](https://fakeapi.platzi.com/)
+- **Plugin:** Code Runner (Plugin para VSCode)
