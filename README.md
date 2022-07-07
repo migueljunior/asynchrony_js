@@ -58,3 +58,9 @@ Entonces **event loop** es una tarea asignada para mover del Task Queue al Stack
 - **Documentación:** [MDN Javascript](https://developer.mozilla.org/en-US/docs/Web/javascript)
 - **Fake API:** [Fake API Platzi](https://fakeapi.platzi.com/)
 - **Plugin:** Code Runner (Plugin para VSCode)
+- **Inicializar el proyecto:** npm init
+- **Estructura de carpetas:** Es necesario tener una estructura como la carpeta src, añadir el archivo .gitignore y agregar que se debe ignorar.
+
+**Callbacks:** Un callback es una funcion que es pasa a otra función como un argumento, que luego invoca dentro de la función externa para completar algún tipo de rutina o acción.
+
+**XMLHTTPRequest:**
