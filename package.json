@@ -4,7 +4,7 @@
   "description": "Repository about asynchrony in JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/callback/challenge.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/migueljunior/asynchrony_js/issues"
   },
-  "homepage": "https://github.com/migueljunior/asynchrony_js#readme"
+  "homepage": "https://github.com/migueljunior/asynchrony_js#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }

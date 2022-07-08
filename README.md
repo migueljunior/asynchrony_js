@@ -63,4 +63,15 @@ Entonces **event loop** es una tarea asignada para mover del Task Queue al Stack
 
 **Callbacks:** Un callback es una funcion que es pasa a otra función como un argumento, que luego invoca dentro de la función externa para completar algún tipo de rutina o acción.
 
-**XMLHTTPRequest:**
+**XMLHTTP Request:** Se utilizara las callbacks para realizar multiples llamados y obtener información desde la API mencionada mas antes. Para poder realizar esto se utilizara XMLHTTPRequest que se encuentra en JS.
+
+Es necesario instalar el siguiente recurso ```npm install xmlhttprequest```
+
+Valores de readyState:
+- **0:** No se ha inicializado.
+- **1:** Loading.
+- **2:** Cuando se ejecuto send.
+- **3:** Interactuando, trabajando con la solicitud.
+- **4:** Se ha completado la llamada.
+
+**Fetch Data:** Proceso de obtencion de la data o error de la petición a la API.
