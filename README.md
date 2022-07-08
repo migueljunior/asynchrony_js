@@ -75,3 +75,10 @@ Valores de readyState:
 - **4:** Se ha completado la llamada.
 
 **Fetch Data:** Proceso de obtencion de la data o error de la petición a la API.
+
+**Promesas:** Es parte de un objeto ```Promesa``` que es usado para computaciones asíncronas. Una promesa representa un valor que puede estar disponible ahora, en el futuro o nunca.
+
+Una promesa tiene los siguientes 3 estados:
+- **Pendiente:** Cuando se esta ejecutando.
+- **Cumplido:** Cuando se regreso la información deseada.
+- **Rechazada:** Cuando no regreso la información.
