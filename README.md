@@ -82,3 +82,5 @@ Una promesa tiene los siguientes 3 estados:
 - **Pendiente:** Cuando se esta ejecutando.
 - **Cumplido:** Cuando se regreso la información deseada.
 - **Rechazada:** Cuando no regreso la información.
+
+**Async/Await:** Es una funcion asincrona la cual devuelve un objeto, utiliza las palabras reservadas **aync** y **await**.
